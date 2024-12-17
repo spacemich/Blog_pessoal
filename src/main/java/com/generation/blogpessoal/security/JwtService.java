@@ -17,7 +17,7 @@ import java.util.function.Function;
 @Component
 public class JwtService {
 
-    public static final String SECRET = "a91e0547-3266-4075-9c4c-9dacd389c71a";
+    public static final String SECRET = "d277670919a94ba361be1887d39852c3f31d7eed817343cbb70fcd8910841f86";
 
     private Key getSignKey() {
         byte[] keyBytes = Decoders.BASE64.decode(SECRET);
